@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <title>Chief lecturers</title>
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h1>Chief lecturers</h1>
+    </header>
+    <ul id="lecturerList">
+        <li id="lecturer1" onclick="showDetails('lecturer1')" onmouseover="highlightItem('lecturer1')" onmouseout="unhighlightItem('lecturer1')">Chief lecturer 1</li>
+        <li id="lecturer2" onclick="showDetails('lecturer2')" onmouseover="highlightItem('lecturer2')" onmouseout="unhighlightItem('lecturer2')">Chief lecturer 2</li>
+        <li id="lecturer3" onclick="showDetails('lecturer3')" onmouseover="highlightItem('lecturer3')" onmouseout="unhighlightItem('lecturer3')">Chief lecturer 3</li>
+    </ul>
+    <div id="lecturerDetails">
+        Click on a chief lecturer to see their details.
+    </div>
+    <script>
+        function showDetails(lecturerId) {
+            var lecturerDetails = document.getElementById('lecturerDetails');
+            var lecturerName = document.getElementById(lecturerId).textContent;
+
+            if (lecturerId === 'lecturer1') {
+                introduction = "Name: Chief lecturer 1 Occupation: Accomplished entrepreneur Passion: Strong passion for innovation Description: Chief lecturer 1 is known for their entrepreneurial skills and is deeply committed to driving innovation in various fields.";
+            } else if (lecturerId === 'lecturer2') {
+                introduction = "Chief lecturer 2 is a renowned author and motivational speaker.";
+            } else if (lecturerId === 'lecturer3') {
+                introduction = "Chief lecturer 3 is a distinguished scientist recognized for groundbreaking research.";
+            }
+
+            lecturerDetails.textContent = 'Details of ' + lecturerName + ' ' + introduction;
+            document.getElementById(lecturerId).style.backgroundColor = '#f2164d';
+            document.getElementById(lecturerId).classList.add('selected');
+        }
+
+        function highlightItem(lecturerId) {
+            document.getElementById(lecturerId).style.backgroundColor = '#c0c0c0';
+        }
+
+        function unhighlightItem(lecturerId) {
+            document.getElementById(lecturerId).style.backgroundColor = '#f0f0f0';
+        }
+    </script>
+</body>
+</html>

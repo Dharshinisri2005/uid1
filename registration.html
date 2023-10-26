@@ -1,0 +1,63 @@
+<html>
+    <head>
+    <title>College Workshop</title>
+    <link rel="stylesheet" href="styles1.css">
+    </head>
+    <body>
+    <header>
+        <h1>Udemy course Registration form</h1>
+        </header>
+        <h2>Registration</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+    
+             <label for="Collegename">College Name:</label>
+            <input type="text" id="Collegename" name="Collegename" required>
+                    <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <b>SELECT COURSES</b>
+    <br>
+    <input type="checkbox" name="EVENT" id="Event1">
+    <label for="Event1"> AI IN ROBOTICS</label>
+    <input type="checkbox" name="EVENT" id="Event2">
+    <label for="Event2">ML IN ROBOTICS</label>
+    <input type="checkbox" name="EVENT" id="Event3">
+    <label for="Event3">FUTURE OF ROBOTICS</label>
+    <br>
+    <label for="dept">Department:</label>
+    <select name="dept" id="department">
+    <option value="CSE">CSE</option>
+    <option value="CCE">CCE</option>
+    <option value="EEE">EEE</option>
+    <option value="MECH">MECH</option>
+    </select><br>
+    <B>Gender:</B><br>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">female</label>
+            <label for="state">State:</label>
+            <select id="state" name="state">
+                <option value="state1">TAMIL NADU</option>
+                <option value="state2">KARNATAKA</option>
+                <option value="state1">ANDHRA PRADESH</option>
+                <option value="state1">TELUNGANA</option>
+                <option value="state2">KERALA</option>
+            </select>
+            <label for="fileselect"><strong>Upload the identity card as file:</strong></label>
+    <input type="file" name="upload" id="fileselect"><br>
+	   <form>
+        <label for="humanCheck">I am a human:</label>
+        <input type="checkbox" id="humanCheck">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+            <button type="submit">Register</button>
+        </form>
+    </body>
+    </html>

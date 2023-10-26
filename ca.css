@@ -1,0 +1,77 @@
+#user-input {
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 250px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    height: 40px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+  }
+  .inline {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  #btn {
+    box-shadow: 5px 5px 5px grey;
+    color: #fff;
+    margin: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #btn:hover {
+    background-color: #0056b3;
+  }
+  #image {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  #image-container {
+    text-align: center;
+  }
+  #otp-container {
+    text-align: center;
+  }
+  #otp-status {
+    color: #007BFF;
+    font-weight: bold;
+  }
+  #otp {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    width: 100px;
+  }
+  #otp-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+  }
+   button {
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    body {
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+      }

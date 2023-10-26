@@ -1,0 +1,154 @@
+
+p,h2{
+	color:#ffffff
+}
+
+#e {
+color: #db1d3f;
+}
+.p{
+	background-color: #f02247;
+	text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+body { 
+background-color:#14130e;
+ margin: 1px;
+    padding: 1px;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #f2164d;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+section {
+	
+    padding: 2em;
+    background-color: #14130e;
+    margin-bottom: 20px;
+}
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: block;
+}
+article {
+    margin-bottom: 20px;
+}
+form {
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+button[type="submit"]:hover {
+    background-color: #29373d;
+}
+article {
+	 background-image: url('https://th.bing.com/th/id/OIP.nW8OyX_zQ5ndTpAejjL8wAHaEK?pid=ImgDet&rs=1');
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin-bottom: 2px;
+}
+
+article h3 {
+    font-size: 20px;
+}
+h1{
+	color:white;
+}
+h1, h2, h3, p, ul, li, form {
+    margin: 10;
+    padding: 10;
+}
+#lecturerDetails {
+    color: white;
+}
+/* styles.css */
+#lecturerList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lecturerList li {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#lecturerList li:hover {
+    background-color: #e0e0e0;
+}
+.selected {
+    color: white;
+}
+.OTP-group {
+    display: flex;
+    align-items: center;
+}
+
+.OTP-group input {
+    flex-grow: 1;
+}
+
+.OTP-group button {
+    margin-left: 10px;
+}
+
+.OTPResult, .OTPCorrect {
+    margin-top: 10px;
+}
+#image{
+	margin-top: 10px;
+	box-shadow: 5px 5px 5px 5px gray;
+	width: 60px;;
+	padding: 20px;
+	font-weight: 400;
+	padding-bottom: 0px;
+	height: 40px;
+	user-select: none;
+	text-decoration:line-through;
+	font-style: italic;
+	font-size: x-large;
+	border: red 2px solid;
+	margin-left: 10px;
+	
+}
+#user-input{
+	box-shadow: 5px 5px 5px 5px gray;
+	width:auto;
+	margin-right: 10px;
+	padding: 10px;
+	padding-bottom: 0px;
+	height: 40px;
+	border: red 0px solid;
+}
+input{
+	border:1px black solid;
+}
+.inline{
+	display:inline-block;
+}
+#btn{
+	box-shadow: 5px 5px 5px grey;
+	color: aqua;
+	margin: 10px;
+	background-color: brown;
+}
